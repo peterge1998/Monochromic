@@ -14,11 +14,35 @@ To use the theme copy paste the line below into "Dashboard>General>Custom CSS" a
 ## Features
 - Uses the same font as the JF logo everywhere
 - Blurred backdrops
-- Squared aesthetic with rounded corners
+- Squared aesthetic with rounded corners (optionally corners so sharp you might get an eye poked out)
 - Works well on mobile
 - Strives to theme every element
 - More compact
 - Smaller and squared cast info
+- Customizable accent color+
+
+## Add-ons
+
+There are some additional options, that allow for an accent color, or removed rounding. These are added immediately after the default import line.
+
+```css
+@import url('https://$your-hostname$/web/Monochromic/sharp_style.css');
+```
+
+Removes corner rounding. In fact, squares off  every rounded corner JF ever had.
+
+```css
+@import url('https://$your-hostname$/web/Monochromic/jfblue_style.css');
+```
+
+Restore some of the jellyfin blue accenting.
+
+```css
+@import url('https://$your-hostname$/web/Monochromic/customcolor_style.css');
+:root {--accent: replaceme;}
+:root {--hoveraccent: replaceme80;}
+```
+
 
 ## Screenshots
 

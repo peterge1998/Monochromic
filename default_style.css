@@ -2,79 +2,77 @@
 
 /* quicksand-300 - latin */
 @font-face {
-    font-family: 'Quicksand';
-    font-style: normal;
-    font-weight: 300;
-    src: url('/web/quicksand-v21-latin-300.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('/web/quicksand-v21-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/web/quicksand-v21-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
-         url('/web/quicksand-v21-latin-300.woff') format('woff'), /* Modern Browsers */
-         url('/web/quicksand-v21-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('/web/quicksand-v21-latin-300.svg#Quicksand') format('svg'); /* Legacy iOS */
-  }
-  
-  /* quicksand-500 - latin */
-  @font-face {
-    font-family: 'Quicksand';
-    font-style: normal;
-    font-weight: 500;
-    src: url('/web/quicksand-v21-latin-500.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('/web/quicksand-v21-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/web/quicksand-v21-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
-         url('/web/quicksand-v21-latin-500.woff') format('woff'), /* Modern Browsers */
-         url('/web/quicksand-v21-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('/web/quicksand-v21-latin-500.svg#Quicksand') format('svg'); /* Legacy iOS */
-  }
-  
-  /* quicksand-regular - latin */
-  @font-face {
-    font-family: 'Quicksand';
-    font-style: normal;
-    font-weight: 400;
-    src: url('/web/quicksand-v21-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('/web/quicksand-v21-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/web/quicksand-v21-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('/web/quicksand-v21-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('/web/quicksand-v21-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('/web/quicksand-v21-latin-regular.svg#Quicksand') format('svg'); /* Legacy iOS */
-  }
-  
-  /* quicksand-600 - latin */
-  @font-face {
-    font-family: 'Quicksand';
-    font-style: normal;
-    font-weight: 600;
-    src: url('/web/quicksand-v21-latin-600.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('/web/quicksand-v21-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/web/quicksand-v21-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
-         url('/web/quicksand-v21-latin-600.woff') format('woff'), /* Modern Browsers */
-         url('/web/quicksand-v21-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('/web/quicksand-v21-latin-600.svg#Quicksand') format('svg'); /* Legacy iOS */
-  }
-  
-  /* quicksand-700 - latin */
-  @font-face {
-    font-family: 'Quicksand';
-    font-style: normal;
-    font-weight: 700;
-    src: url('/web/quicksand-v21-latin-700.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('/web/quicksand-v21-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/web/quicksand-v21-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-         url('/web/quicksand-v21-latin-700.woff') format('woff'), /* Modern Browsers */
-         url('/web/quicksand-v21-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('/web/quicksand-v21-latin-700.svg#Quicksand') format('svg'); /* Legacy iOS */
-  }
-  
-
-body, h1, h2, h3, h4 {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/web/quicksand-v21-latin-300.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('/web/quicksand-v21-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/web/quicksand-v21-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/web/quicksand-v21-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('/web/quicksand-v21-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/web/quicksand-v21-latin-300.svg#Quicksand') format('svg'); /* Legacy iOS */
 }
 
+/* quicksand-500 - latin */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/web/quicksand-v21-latin-500.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('/web/quicksand-v21-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/web/quicksand-v21-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/web/quicksand-v21-latin-500.woff') format('woff'), /* Modern Browsers */
+       url('/web/quicksand-v21-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/web/quicksand-v21-latin-500.svg#Quicksand') format('svg'); /* Legacy iOS */
+}
+
+/* quicksand-regular - latin */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/web/quicksand-v21-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('/web/quicksand-v21-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/web/quicksand-v21-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/web/quicksand-v21-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/web/quicksand-v21-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/web/quicksand-v21-latin-regular.svg#Quicksand') format('svg'); /* Legacy iOS */
+}
+
+/* quicksand-600 - latin */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/web/quicksand-v21-latin-600.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('/web/quicksand-v21-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/web/quicksand-v21-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/web/quicksand-v21-latin-600.woff') format('woff'), /* Modern Browsers */
+       url('/web/quicksand-v21-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/web/quicksand-v21-latin-600.svg#Quicksand') format('svg'); /* Legacy iOS */
+}
+
+/* quicksand-700 - latin */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/web/quicksand-v21-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('/web/quicksand-v21-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/web/quicksand-v21-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/web/quicksand-v21-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('/web/quicksand-v21-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/web/quicksand-v21-latin-700.svg#Quicksand') format('svg'); /* Legacy iOS */
+}
+
+body, h1, h2, h3, h4 {
+font-family: 'Quicksand', sans-serif;
+}
 /*Narrow margins, theme main page*/
 .cardBox-bottompadded {
     margin-bottom: 0.6em !important;
@@ -85,7 +83,7 @@ body, h1, h2, h3, h4 {
 .raised.homeLibraryButton {
     background: rgba(0, 0, 0, 0.3) !important;
 }
-.raised.homeLibraryButton:hover {filter: brightness(30%); transition: filter 0.2s}
+.raised.homeLibraryButton:hover {transition: filter 0.2s}
 .raised.homeLibraryButton {transition: filter 0.2s}
 .homeLibraryButton {
     min-width: 12em;
@@ -94,11 +92,11 @@ body, h1, h2, h3, h4 {
 
 /*Blur backdrops, feel free to edit the intensity of the blur/saturation/dimming*/
 .backdropImage {
-filter: blur(2px);
+  filter: blur(60px) saturate(200%) contrast(160%) brightness(25%);
 }
-/*.backgroundContainer.withBackdrop {
-background-color: rgba(0,0,0,0);
-}*/
+.backgroundContainer.withBackdrop {
+  background-color: rgba(0,0,0,0);
+}
 
 /*Shrink and square (or round) cast thumnails*/
 @media all and (min-width: 131.25em){
@@ -121,7 +119,7 @@ background-color: rgba(0,0,0,0);
 }
 @media all and (min-width: 87.5em) and (max-width: 100em){
   #castContent .card.overflowPortraitCard {
-    width: 9.3vw; !important; 
+    width: 9.3vw !important; 
     font-size: 90% !important;
   }
 }
@@ -288,14 +286,13 @@ background-color: rgba(0,0,0,0);
   margin-right: 1em !important;
 }
 .checkboxOutline {
-  border-radius: 0.4em; background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 .emby-input,
 .emby-textarea,
 .emby-select-withcolor {
   background: rgba(0, 0, 0, 0.2); 
-  border: 0.01em solid rgba(255, 255, 255, 0.22); 
-  border-radius: 0.4em;
+  border: 0.01em solid rgba(255, 255, 255, 0.22);
 }
 .emby-input:focus, 
 .emby-textarea:focus, 
@@ -305,8 +302,8 @@ background-color: rgba(0,0,0,0);
 }
 
 /*Size episode preview images in a more compact way*/
-.listItemImage.listItemImage-large.itemAction.lazy:hover {
-  filter: brightness(30%); transition: filter 0.2s
+.listItem:hover {
+	transition: 0.2s; background: rgba(0, 0, 0, 0.4);
 }
 .listItemImage.listItemImage-large.itemAction.lazy {
   transition: filter 0.2s
@@ -358,7 +355,7 @@ the commented code is for WIP gradient to allow taskbar visibility during scroll
   background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 27%, rgba(0, 0, 0, 0.8) 100%) !important;
   height: 135px;
   background-color:rgba(0, 0, 0, 0);
-}
+}*/
 .skinHeader {
   background: none !important; 
   background-color: rgba(0, 0, 0, 0) !important;
@@ -373,7 +370,7 @@ the commented code is for WIP gradient to allow taskbar visibility during scroll
 }
 .emby-tab-button {
   padding: 1.75em 1.7em;
-}*/
+}
 
 /*Narrow the login form, size according to display size (bigger on mobile)*/
 #loginPage .readOnlyContent,
@@ -389,10 +386,7 @@ the commented code is for WIP gradient to allow taskbar visibility during scroll
   margin-top: 50px
 }
 
-/*Hide "manual" and "forgot" buttons*/
-#loginPage .raised.cancel.block.btnManual.emby-button {
-  display: none
-}
+/*Hide "manual" and "forgot" buttons}*/
 #loginPage .raised.cancel.block.btnForgotPassword.emby-button {
   display: none
 }
@@ -416,16 +410,21 @@ the commented code is for WIP gradient to allow taskbar visibility during scroll
 
 /*Rounded corners on pretty much everything*/
 .formDialogHeader {
-  border-top-left-radius: 0.4em;
-  border-top-right-radius: 0.4em;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .formDialogFooter {
-  border-bottom-left-radius: 0.4em;
-  border-bottom-right-radius: 0.4em;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .cardOverlayContainer {
-	border-radius: 0.3em !important;
+	border-radius: 5px !important;
 }
+.paperList,
+.cardContent,
+.sessionNowPlayingInnerContent, 
+.listItem:hover, 
+.cardImage,
 .fab,
 .raised,
 .multiSelectCheckboxOutline,
@@ -450,16 +449,41 @@ the commented code is for WIP gradient to allow taskbar visibility during scroll
 .listItemIcon,
 .listItem-border,
 .button-flat,
-.visualCardBox {
-  border-radius: 0.4em !important;
+.visualCardBox,
+.checkboxOutline,
+.emby-select-withcolor,
+.cardOverlayButtonIcon {
+  border-radius: 5px !important;
 }
 .osdPoster img {
-  border-radius: 0.4em; border: none;
+  border-radius: 5px; border: none;
+}
+.mdl-slider::-moz-range-thumb {
+  border-radius: 5px;
+}
+div[data-role="controlgroup"] a[data-role="button"]:first-child {
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+div[data-role="controlgroup"] a[data-role="button"]:last-child {
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
 }
 
 /*Modified progress bar, play and item menu buttons*/
+.innerCardFooter.fullInnerCardFooter.innerCardFooterClear {
+  border-radius: 0px !important; 
+  background: rgba(0,0,0,0.7);
+}
+.itemProgressBarForeground {
+    background: #fff5 !important;
+}
 .itemProgressBar {
-  height: 3px;
+    height: 500px;
+    background: #0000;
+}
+.innerCardFooter.fullInnerCardFooter.innerCardFooterClear {
+  border-radius: 0px !important; 
   background: rgba(0,0,0,0);
 }
 .cardIndicators {
@@ -482,9 +506,6 @@ the commented code is for WIP gradient to allow taskbar visibility during scroll
 }
 @media all and (max-width: 70em){
   .cardOverlayButtonIcon {
-    border-radius: 5px !important;
-  }
-  .cardOverlayButtonIcon {
     background-color: rgba(0, 0, 0, 0.5) !important;
   }
   .cardOverlayButton {
@@ -498,6 +519,9 @@ the commented code is for WIP gradient to allow taskbar visibility during scroll
 }
 
 /*Themeing for the dashboard*/
+.sessionCardFooter {
+  border: none;
+}
 .paperList, 
 .visualCardBox {
   background-color: rgba(0, 0, 0, 0.5);
@@ -511,6 +535,18 @@ fieldset {
 }
 
 /*Color theming*/
+.blurhash-canvas {
+	filter: opacity(60%) saturate(60%);
+}
+
+div[data-role="controlgroup"] a.ui-btn-active {
+	background: rgba(120, 120, 120, 0.6) !important; 
+	color: white !important;
+}
+div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
+	margin: 0 !important;
+}
+
 .starIcon {
   color: white;
 }
@@ -518,14 +554,12 @@ fieldset {
   background-color: rgb(255, 255, 255);
 }
 .mdl-slider::-moz-range-thumb {
-  background: rgb(255, 255, 255); border-radius: 5px;
+  background: rgb(255, 255, 255);
 }
 .iconOsdProgressInner {
   background: rgb(255, 255, 255);
 }
-.itemProgressBarForeground {
-  background: rgba(255, 255, 255, 0.6) !important;
-}
+
 /*.backgroundContainer,*/
 .navMenuOption-selected,
 .selectionCommandsPanel {
@@ -536,6 +570,7 @@ fieldset {
 }
 
 .paper-icon-button-light:hover,
+.raised.homeLibraryButton:hover,
 .button-flat:hover,
 .playstatebutton-icon-played,
 .ratingbutton-icon-withrating,
@@ -547,11 +582,24 @@ fieldset {
   color: rgba(120, 120, 120, 0.6) !important;
 }
 
+.cardImage,
+.blurhashed {
+   background-color: #0000 !important;
+}
+
 .listItemIcon {
   background-color: rgba(0,0,0,0) !important;
 }
-.raised, .fab {
+.raised,
+.fab,
+a[data-role="button"] {
   background: rgba(40, 40, 40, 0.8) !important;
+	transition: all 0.2s !important;
+}
+
+.raised:hover,
+.fab:hover {
+  background: rgba(80, 80, 80, 0.8) !important;
 }
 
 .paper-icon-button-light:hover,
@@ -586,4 +634,20 @@ fieldset {
 }
 .layout-desktop {
   scrollbar-color: rgba(255, 255, 255, 0.22) #0000;
+}
+
+.defaultCardBackground1 {
+	background-color: #0d0d0d80;
+}
+.defaultCardBackground2 {
+	background-color: #4d4d4d80;
+}
+.defaultCardBackground3 {
+	background-color: #1a1a1a80;
+}
+.defaultCardBackground4 {
+	background-color: #33333380;
+}
+.defaultCardBackground5 {
+	background-color: #66666680;
 }

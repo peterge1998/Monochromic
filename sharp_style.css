@@ -42,14 +42,42 @@
 .visualCardBox,
 .checkboxOutline,
 .emby-select-withcolor,
+.chapterThumbTextContainer,
+.chapterThumbContainer,
+.chapterThumb,
+.emby-input, 
+.emby-textarea, 
+.emby-select-withcolor,
 .cardOverlayButtonIcon {
   border-radius: 0px !important;
+}
+progress {
+    border-radius: 0px;
 }
 .osdPoster img {
   border-radius: 0em; border: none;
 }
 .mdl-slider::-moz-range-thumb {
+<<<<<<< HEAD
   border-radius: 0em;
+=======
+  border-radius: 0px;
+}
+.mdl-slider::-ms-thumb {
+  border-radius: 0px;
+}
+.mdl-slider::-webkit-slider-thumb {
+  border-radius: 0px;
+}
+progress::-webkit-progress-bar {
+  border-radius: 0px;
+}
+progress::-moz-progress-bar {
+  border-radius: 0px;
+}
+progress::-webkit-progress-value {
+  border-radius: 0px;
+>>>>>>> 4f14f912ade619204f0107ffd0cce0343645a09d
 }
 div[data-role="controlgroup"] a[data-role="button"]:first-child {
 	border-bottom-left-radius: 0em;

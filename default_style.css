@@ -73,6 +73,7 @@
 body, h1, h2, h3, h4 {
 font-family: 'Quicksand', sans-serif;
 }
+
 /*Narrow margins, theme main page*/
 .cardBox-bottompadded {
     margin-bottom: 0.6em !important;
@@ -517,15 +518,12 @@ font-family: 'Quicksand', sans-serif;
 .visualCardBox,
 .checkboxOutline,
 .emby-select-withcolor,
-<<<<<<< HEAD
-=======
 .chapterThumbTextContainer,
 .chapterThumbContainer,
 .chapterThumb,
 .emby-input, 
 .emby-textarea, 
 .emby-select-withcolor,
->>>>>>> 4f14f912ade619204f0107ffd0cce0343645a09d
 .cardOverlayButtonIcon {
   border-radius: 5px !important;
 }
@@ -535,8 +533,6 @@ font-family: 'Quicksand', sans-serif;
 .mdl-slider::-moz-range-thumb {
   border-radius: 5px;
 }
-<<<<<<< HEAD
-=======
 .mdl-slider::-ms-thumb {
   border-radius: 5px;
 }
@@ -544,7 +540,6 @@ font-family: 'Quicksand', sans-serif;
   border-radius: 5px;
 }
 
->>>>>>> 4f14f912ade619204f0107ffd0cce0343645a09d
 div[data-role="controlgroup"] a[data-role="button"]:first-child {
 	border-bottom-left-radius: 5px;
 	border-top-left-radius: 5px;
@@ -552,8 +547,6 @@ div[data-role="controlgroup"] a[data-role="button"]:first-child {
 div[data-role="controlgroup"] a[data-role="button"]:last-child {
 	border-bottom-right-radius: 5px;
 	border-top-right-radius: 5px;
-<<<<<<< HEAD
-=======
 }
 
 /*Homepage modifications, transparent footeplayer and fixed sectiontitles*/
@@ -564,7 +557,6 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 	margin-left: .4em !important;
 	margin-top: .2em !important;
 	margin-bottom: .2em !important;
->>>>>>> 4f14f912ade619204f0107ffd0cce0343645a09d
 }
 
 /*Modified progress bar, play and item menu buttons*/
@@ -572,15 +564,6 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
   border-radius: 0px !important; 
   background: rgba(0,0,0,0.7);
 }
-<<<<<<< HEAD
-.itemProgressBarForeground {
-    background: #fff5 !important;
-}
-.itemProgressBar {
-    height: 500px;
-    background: #0000;
-}
-=======
 
 .itemProgressBar {
   height: 2000em;
@@ -593,7 +576,6 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
   background-color: rgba(255,255,255,0.3);
 }
 
->>>>>>> 4f14f912ade619204f0107ffd0cce0343645a09d
 .innerCardFooter.fullInnerCardFooter.innerCardFooterClear {
   border-radius: 0px !important; 
   background: rgba(0,0,0,0);
@@ -632,14 +614,10 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
   margin: .2em !important;
 }
 
-<<<<<<< HEAD
-/*Themeing for the dashboard*/
-=======
 /*Some themeing for the dashboard*/
 .dashboardSection h3 {
   margin-left: 0.5em;
 }
->>>>>>> 4f14f912ade619204f0107ffd0cce0343645a09d
 .sessionCardFooter {
   border: none;
 }
@@ -689,20 +667,11 @@ progress::-webkit-progress-value {
 }
 
 /*Color theming*/
-<<<<<<< HEAD
-=======
 /*Affects blurhash to remove the saturated colors to fit overall look*/
->>>>>>> 4f14f912ade619204f0107ffd0cce0343645a09d
 .blurhash-canvas {
 	filter: opacity(60%) saturate(60%);
 }
 
-<<<<<<< HEAD
-div[data-role="controlgroup"] a.ui-btn-active {
-	background: rgba(120, 120, 120, 0.6) !important; 
-	color: white !important;
-}
-=======
 /*Theme user setting tab buttons*/
 div[data-role="controlgroup"] a.ui-btn-active {
 	background: rgba(0, 0, 0, 0.5) !important;
@@ -712,15 +681,11 @@ a[data-role="button"]:hover {
     background: rgba(80, 80, 80, 0.8) !important;
 }
 
->>>>>>> 4f14f912ade619204f0107ffd0cce0343645a09d
 div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 	margin: 0 !important;
 }
 
-<<<<<<< HEAD
-=======
 /*Rating star, normally yellow*/
->>>>>>> 4f14f912ade619204f0107ffd0cce0343645a09d
 .starIcon {
   color: white;
 }
@@ -736,15 +701,12 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 .mdl-slider::-ms-thumb {
   background: rgb(255, 255, 255);
 }
-<<<<<<< HEAD
-=======
 .mdl-slider::-webkit-slider-thumb {
   background: rgb(255, 255, 255);
 }
 .iconOsdProgressInner {
   background: rgb(255, 255, 255);
 }
->>>>>>> 4f14f912ade619204f0107ffd0cce0343645a09d
 
 /*.backgroundContainer,*/
 .navMenuOption-selected,

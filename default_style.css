@@ -83,6 +83,9 @@ font-family: 'Quicksand', sans-serif;
 .raised.homeLibraryButton {
     background: rgba(0, 0, 0, 0.3) !important;
 }
+.raised.homeLibraryButton:hover {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
 .raised.homeLibraryButton:hover {transition: filter 0.2s}
 .raised.homeLibraryButton {transition: filter 0.2s}
 .homeLibraryButton {
@@ -216,6 +219,15 @@ font-family: 'Quicksand', sans-serif;
 }
 
 /*Tweak series/movie/album title screen*/
+@media all and (max-width: 100em){
+  .mainDetailButtons {
+	  font-size: 155%;
+	}
+}
+.mainDetailButtons {
+	font-size: 120%;
+}
+
 .detailSectionContent {
   max-width: 66em;
 }
@@ -260,7 +272,7 @@ font-family: 'Quicksand', sans-serif;
   }
 }
 
-/*Theme some dialogues*/
+/*Theme dialogues, drop downs, text fiels, checkmarks*/
 .dialog {
   background-color: rgba(0, 0, 0, 0.8);
 }
@@ -277,7 +289,8 @@ font-family: 'Quicksand', sans-serif;
   background-color: #101010 !important;
 }
 .formDialogHeader.formDialogHeader-clear.justify-content-center,
-.formDialogFooter.formDialogFooter-clear.formDialogFooter-flex {
+.formDialogFooter.formDialogFooter-clear.formDialogFooter-flex,
+.collapseContent {
   background-color: #0000 !important;
 }
 
@@ -337,25 +350,77 @@ font-family: 'Quicksand', sans-serif;
   .secondary.listItem-overview.listItemBodyText {height: 2.5em; margin: 0;}
 }
 
-/*Banner transparency and larger font, adjust both "size-adjust" and "size" to modify font size 
-the commented code is for WIP gradient to allow taskbar visibility during scrolling
+/*Banner transparency*/
+#dashboardPage,
+#dashboardGeneralPage,
+#userProfilesPage,
+#devicesPage,
+#serverActivityPage,
+#liveTvStatusPage,
+#liveTvSettingsPage,
+#networkingPage,
+#apiKeysPage,
+#logPage,
+#notificationSettingsPage,
+#scheduledTasksPage,
+#itemDetailPage {
+  mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 60px, rgb(0, 0, 0) 90px);
+  -webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 60px, rgb(0, 0, 0) 90px);
+  overflow: scroll;
+}
+
 @media all and (min-width: 100em){
-  .flex.align-items-center.flex-grow.headerTop {
-    margin-top: -60px;
+  #indexPage,
+  #moviesPage,
+  #tvRecommendedPage,
+  #musicRecommendedPage {
+    mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 70px, rgb(0, 0, 0) 120px);
+    -webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 70px, rgb(0, 0, 0) 120px);
+    overflow: scroll;
   }
-  .headerTabs {
-    position: absolute;
-    margin-top: 0px;
+  #encodingSettingsPage,
+  #mediaLibraryPage,
+  #dlnaSettingsPage,
+  #pluginsPage {
+    mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 60px, rgb(0, 0, 0) 90px);
+    -webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 60px, rgb(0, 0, 0) 90px);
+    overflow: scroll;
   }
 }
-.emby-tab-button {
-  padding: 1.4em;
+
+@media all and (max-width: 100em){
+  #indexPage,
+  #moviesPage,
+  #tvRecommendedPage,
+  #encodingSettingsPage,
+  #mediaLibraryPage,
+  #dlnaSettingsPage,
+  #pluginsPage,
+  #musicRecommendedPage {
+    mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 100px, rgb(0, 0, 0) 130px);
+    -webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 100px, rgb(0, 0, 0) 135px);
+    overflow: scroll;
+    margin-top: 30px;
+  }
 }
-.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {
-  background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 27%, rgba(0, 0, 0, 0.8) 100%) !important;
-  height: 135px;
-  background-color:rgba(0, 0, 0, 0);
-}*/
+
+@media all and (max-width: 100em){
+  #indexPage,
+	#moviesPage,
+	#tvRecommendedPage,
+	#encodingSettingsPage,
+	#mediaLibraryPage,
+	#dlnaSettingsPage,
+	#pluginsPage,
+	#musicRecommendedPage {
+    mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 100px, rgb(0, 0, 0) 130px);
+    -webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 100px, rgb(0, 0, 0) 130px);
+    overflow: scroll;
+    margin-top: 20px;
+  }
+}
+
+/*Top "task bar" make transparent and enlarge text*/
 .skinHeader {
   background: none !important; 
   background-color: rgba(0, 0, 0, 0) !important;
@@ -397,8 +462,8 @@ the commented code is for WIP gradient to allow taskbar visibility during scroll
   background-size: cover !important;
 }
 
-/*Make watched icon and other things dark and transparent*/
-.innerCardFooter, 
+/*Make watched icon, footer on chapter thumnails (and other things), and count indicator dark and transparent*/
+.innerCardFooter,
 .countIndicator, 
 .playedIndicator {
   background: rgba(0,0,0,0.4); 
@@ -452,6 +517,15 @@ the commented code is for WIP gradient to allow taskbar visibility during scroll
 .visualCardBox,
 .checkboxOutline,
 .emby-select-withcolor,
+<<<<<<< HEAD
+=======
+.chapterThumbTextContainer,
+.chapterThumbContainer,
+.chapterThumb,
+.emby-input, 
+.emby-textarea, 
+.emby-select-withcolor,
+>>>>>>> 4f14f912ade619204f0107ffd0cce0343645a09d
 .cardOverlayButtonIcon {
   border-radius: 5px !important;
 }
@@ -461,6 +535,16 @@ the commented code is for WIP gradient to allow taskbar visibility during scroll
 .mdl-slider::-moz-range-thumb {
   border-radius: 5px;
 }
+<<<<<<< HEAD
+=======
+.mdl-slider::-ms-thumb {
+  border-radius: 5px;
+}
+.mdl-slider::-webkit-slider-thumb {
+  border-radius: 5px;
+}
+
+>>>>>>> 4f14f912ade619204f0107ffd0cce0343645a09d
 div[data-role="controlgroup"] a[data-role="button"]:first-child {
 	border-bottom-left-radius: 5px;
 	border-top-left-radius: 5px;
@@ -468,6 +552,19 @@ div[data-role="controlgroup"] a[data-role="button"]:first-child {
 div[data-role="controlgroup"] a[data-role="button"]:last-child {
 	border-bottom-right-radius: 5px;
 	border-top-right-radius: 5px;
+<<<<<<< HEAD
+=======
+}
+
+/*Homepage modifications, transparent footeplayer and fixed sectiontitles*/
+.appfooter {
+	background: rgba(0,0,0,0.9);
+}
+.sectionTitle {
+	margin-left: .4em !important;
+	margin-top: .2em !important;
+	margin-bottom: .2em !important;
+>>>>>>> 4f14f912ade619204f0107ffd0cce0343645a09d
 }
 
 /*Modified progress bar, play and item menu buttons*/
@@ -475,6 +572,7 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
   border-radius: 0px !important; 
   background: rgba(0,0,0,0.7);
 }
+<<<<<<< HEAD
 .itemProgressBarForeground {
     background: #fff5 !important;
 }
@@ -482,10 +580,26 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
     height: 500px;
     background: #0000;
 }
+=======
+
+.itemProgressBar {
+  height: 2000em;
+  background: #0000;
+}
+.playbackProgress>div {
+  background-color: rgba(255,255,255,0.75);
+}
+.transcodingProgress>div, .itemProgressBarForeground {
+  background-color: rgba(255,255,255,0.3);
+}
+
+>>>>>>> 4f14f912ade619204f0107ffd0cce0343645a09d
 .innerCardFooter.fullInnerCardFooter.innerCardFooterClear {
   border-radius: 0px !important; 
   background: rgba(0,0,0,0);
 }
+
+/*Accommodate mobile and set positions, I think*/
 .cardIndicators {
   right: 0.3em; 
   top: 0.3em;
@@ -518,7 +632,14 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
   margin: .2em !important;
 }
 
+<<<<<<< HEAD
 /*Themeing for the dashboard*/
+=======
+/*Some themeing for the dashboard*/
+.dashboardSection h3 {
+  margin-left: 0.5em;
+}
+>>>>>>> 4f14f912ade619204f0107ffd0cce0343645a09d
 .sessionCardFooter {
   border: none;
 }
@@ -534,31 +655,96 @@ fieldset {
   border-radius: 0.4em;
 }
 
+/*Theme the library scan progress bar*/
+progress {
+ background: rgba(0, 0, 0, 0.5) !important;
+ border-radius: 5px;
+}
+#divRunningTasks span {
+  color: rgba(255,255,255,0.75) !important;
+}
+progress::-webkit-progress-bar {
+  background: rgba(255,255,255,0.75);
+  border-radius: 5px;
+}
+progress::-moz-progress-bar {
+  background-color: rgba(255,255,255,0.75);
+  border-radius: 5px;
+}
+progress::-webkit-progress-value {
+  background-color: rgba(255,255,255,0.75);
+  border-radius: 5px;
+}
+
+/*Shrink the mouseover chapter image when scrobbling*/
+.chapterThumb {
+    height: 14vh;
+    min-width: 14vh;
+}
+.chapterThumbText {
+    font-size: 1em;
+}
+.sliderBubble {
+  background: #0000;
+}
+
 /*Color theming*/
+<<<<<<< HEAD
+=======
+/*Affects blurhash to remove the saturated colors to fit overall look*/
+>>>>>>> 4f14f912ade619204f0107ffd0cce0343645a09d
 .blurhash-canvas {
 	filter: opacity(60%) saturate(60%);
 }
 
+<<<<<<< HEAD
 div[data-role="controlgroup"] a.ui-btn-active {
 	background: rgba(120, 120, 120, 0.6) !important; 
 	color: white !important;
 }
+=======
+/*Theme user setting tab buttons*/
+div[data-role="controlgroup"] a.ui-btn-active {
+	background: rgba(0, 0, 0, 0.5) !important;
+	color: white !important;
+}
+a[data-role="button"]:hover {
+    background: rgba(80, 80, 80, 0.8) !important;
+}
+
+>>>>>>> 4f14f912ade619204f0107ffd0cce0343645a09d
 div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 	margin: 0 !important;
 }
 
+<<<<<<< HEAD
+=======
+/*Rating star, normally yellow*/
+>>>>>>> 4f14f912ade619204f0107ffd0cce0343645a09d
 .starIcon {
   color: white;
 }
+
+
+/*Theme media player*/
 .mdl-slider-background-lower {
   background-color: rgb(255, 255, 255);
 }
 .mdl-slider::-moz-range-thumb {
   background: rgb(255, 255, 255);
 }
+.mdl-slider::-ms-thumb {
+  background: rgb(255, 255, 255);
+}
+<<<<<<< HEAD
+=======
+.mdl-slider::-webkit-slider-thumb {
+  background: rgb(255, 255, 255);
+}
 .iconOsdProgressInner {
   background: rgb(255, 255, 255);
 }
+>>>>>>> 4f14f912ade619204f0107ffd0cce0343645a09d
 
 /*.backgroundContainer,*/
 .navMenuOption-selected,
@@ -602,7 +788,6 @@ a[data-role="button"] {
   background: rgba(80, 80, 80, 0.8) !important;
 }
 
-.paper-icon-button-light:hover,
 .paper-icon-button-light:hover {
   background-color: rgba(0, 0, 0, 0.4) !important;
 }
